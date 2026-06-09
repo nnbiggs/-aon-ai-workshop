@@ -18,7 +18,7 @@ export default function Footer() {
               AI in the SDLC Workshop
             </p>
             <p className="mt-1 font-mono text-[13px] text-orange">
-              June 8th, 2026
+              June, 2026
             </p>
           </div>
 
