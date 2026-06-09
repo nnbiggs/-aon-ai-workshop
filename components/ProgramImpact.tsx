@@ -6,7 +6,7 @@ const metrics = [
   { value: "~6 weeks", label: "Acceleration per Meridian release" },
   { value: "40–60%", label: "Requirements cycle time reduction" },
   { value: "2–3x", label: "Faster test scaffolding per sprint" },
-  { value: "$2–4M", label: "Cost savings per delayed release avoided" },
+  { value: "Per release", label: "Business impact of avoided delays" },
   { value: "75 days", label: "Target E2E delivery (from ~150 today)" },
 ];
 
@@ -111,8 +111,8 @@ export default function ProgramImpact() {
                   />
                 ))}
                 <p className="border-t border-border pt-4 font-mono text-[12px] text-orange sm:text-[13px]">
-                  Savings: Each month of delay costs ~$1.5–2M. Embedding
-                  recovers this multiple times over.
+                  Impact: Each month of delay compounds across the program.
+                  Embedding recovers this multiple times over.
                 </p>
               </div>
             </article>
@@ -134,8 +134,8 @@ export default function ProgramImpact() {
                   />
                 ))}
                 <p className="border-t border-border pt-4 font-mono text-[12px] text-orange sm:text-[13px]">
-                  Savings: Each quarter of BCoP delay costs ~$3–5M. Embedding
-                  can recapture 1–2 quarters per go-live.
+                  Impact: Each quarter of BCoP delay pushes go-lives further
+                  out. Embedding can recapture 1–2 quarters per go-live.
                 </p>
               </div>
             </article>
