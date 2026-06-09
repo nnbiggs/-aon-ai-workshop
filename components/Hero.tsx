@@ -34,7 +34,7 @@ export default function Hero() {
         <div className="content-wrap flex flex-1 flex-col justify-center pb-8 pt-28 sm:pt-32 md:py-24">
           <Reveal>
             <p className="section-label text-[10px] sm:text-[11px]">
-              // AI SDLC WORKSHOP · JUNE 2026
+              // AI SDLC WORKSHOP · JUNE, 2026
             </p>
           </Reveal>
 
@@ -56,7 +56,7 @@ export default function Hero() {
             <div className="mt-5 flex flex-col items-start gap-3 sm:mt-6 sm:flex-row sm:flex-wrap sm:items-center sm:gap-x-4 sm:gap-y-3">
               <AonLogo height={16} className="text-white sm:h-[18px]" />
               <p className="font-mono text-[11px] leading-relaxed text-orange sm:text-[13px]">
-                [ JUNE 8TH, 2026 ] · [ CONFIDENTIAL ]
+                [ JUNE, 2026 ] · [ CONFIDENTIAL ]
               </p>
             </div>
           </Reveal>
