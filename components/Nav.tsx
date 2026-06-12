@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import AonLogo from "@/components/AonLogo";
+import PwcLogo from "@/components/PwcLogo";
 
 const links = [
   { href: "#purpose", label: "Purpose" },
@@ -27,8 +27,8 @@ export default function Nav() {
     <header className="nav-blur sticky top-0 z-50 h-nav w-full border-b border-border">
       <div className="content-wrap flex h-full items-center justify-between gap-3">
         <a href="#" className="shrink-0">
-          <AonLogo height={18} className="text-white sm:hidden" />
-          <AonLogo height={20} className="hidden text-white sm:block" />
+          <PwcLogo height={18} className="sm:hidden" />
+          <PwcLogo height={20} className="hidden sm:block" />
         </a>
 
         <nav aria-label="Primary" className="hidden md:block">

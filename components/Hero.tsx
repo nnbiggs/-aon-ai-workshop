@@ -1,5 +1,5 @@
 import Image from "next/image";
-import AonLogo from "@/components/AonLogo";
+import PwcLogo from "@/components/PwcLogo";
 import Reveal from "@/components/ui/Reveal";
 import { images } from "@/lib/images";
 
@@ -54,7 +54,7 @@ export default function Hero() {
 
           <Reveal delay={0.32}>
             <div className="mt-5 flex flex-col items-start gap-3 sm:mt-6 sm:flex-row sm:flex-wrap sm:items-center sm:gap-x-4 sm:gap-y-3">
-              <AonLogo height={16} className="text-white sm:h-[18px]" />
+              <PwcLogo height={16} className="sm:h-[18px]" />
               <p className="font-mono text-[11px] leading-relaxed text-orange sm:text-[13px]">
                 [ JUNE, 2026 ] · [ CONFIDENTIAL ]
               </p>

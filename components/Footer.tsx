@@ -1,4 +1,4 @@
-import AonLogo from "@/components/AonLogo";
+import PwcLogo from "@/components/PwcLogo";
 
 export default function Footer() {
   return (
@@ -7,7 +7,7 @@ export default function Footer() {
       <div className="content-wrap py-8 sm:py-10">
         <div className="grid gap-6 text-center sm:gap-8 md:grid-cols-3 md:items-start md:text-left">
           <div className="flex flex-col items-center md:items-start">
-            <AonLogo height={22} className="text-white" />
+            <PwcLogo height={22} />
             <p className="mt-3 font-mono text-[11px] text-white-30 sm:mt-4">
               AI-native SDLC acceleration
             </p>
