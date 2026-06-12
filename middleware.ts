@@ -28,6 +28,8 @@ export const config = {
   // Protect all routes except the gate API (needed to set the cookie),
   // Next.js internals, and static assets.
   matcher: [
-    "/((?!api/gate|_next/static|_next/image|favicon.ico|robots.txt|sitemap.xml).*)",
+    // Match all paths except the gate API, Next.js internals, and any
+    // request for a static file (paths containing a dot, e.g. /pwc-logo.png).
+    "/((?!api/gate|_next/static|_next/image|.*\\.).*)",
   ],
 };
