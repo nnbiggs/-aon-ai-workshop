@@ -4,6 +4,12 @@ import { GATE_COOKIE, GATE_TOKEN } from "@/lib/gate";
 
 export function middleware(request: NextRequest) {
   const { pathname } = request.nextUrl;
+
+  // Public folder assets (logo, etc.) must load on the gate page too.
+  if (/\.(?:png|svg|jpe?g|gif|webp|ico|woff2?|ttf|txt|xml)$/i.test(pathname)) {
+    return NextResponse.next();
+  }
+
   const authed = request.cookies.get(GATE_COOKIE)?.value === GATE_TOKEN;
 
   // Already on the gate page.
