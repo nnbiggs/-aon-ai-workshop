@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import PwcLogo from "@/components/PwcLogo";
 import GateForm from "@/components/GateForm";
 
 export const metadata: Metadata = {
@@ -11,8 +10,6 @@ export default function GatePage() {
   return (
     <main className="dot-grid flex min-h-[100dvh] w-full items-center justify-center bg-canvas px-4 py-12">
       <div className="flex w-full max-w-md flex-col items-center text-center">
-        <PwcLogo height={44} className="mb-10" />
-
         <h1 className="hero-title text-balance text-[2rem] leading-tight sm:text-4xl">
           AI in the SDLC Workshop
         </h1>

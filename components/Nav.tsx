@@ -1,7 +1,6 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import PwcLogo from "@/components/PwcLogo";
 
 const links = [
   { href: "#purpose", label: "Purpose" },
@@ -25,12 +24,7 @@ export default function Nav() {
 
   return (
     <header className="nav-blur sticky top-0 z-50 h-nav w-full border-b border-border">
-      <div className="content-wrap flex h-full items-center justify-between gap-3">
-        <a href="#" className="shrink-0">
-          <PwcLogo height={18} className="sm:hidden" />
-          <PwcLogo height={20} className="hidden sm:block" />
-        </a>
-
+      <div className="content-wrap flex h-full items-center justify-end md:justify-center">
         <nav aria-label="Primary" className="hidden md:block">
           <ul className="flex items-center gap-4 lg:gap-6">
             {links.map((link) => (
